@@ -1,0 +1,57 @@
+.conectare-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .sign-in-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Afișează elementele în coloană */
+    align-items: center; /* Aliniază pe mijloc pe axa orizontală */
+  }
+  
+  .sign-in-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sign-in-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sign-in-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .link-container {
+    margin-top: 13px;
+  }
+  
+  .link-container a {
+    margin-right: 700px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  .inreg{
+    
+    margin-left: 700px;
+    
+  }
